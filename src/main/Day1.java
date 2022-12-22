@@ -1,3 +1,5 @@
+package main;
+
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
@@ -2244,7 +2246,7 @@ public class Day1 {
     }
 
     private static void test(String input) {
-        Utils.log("Day1 problem -- ");
+        Utils.log("main.Day1 problem -- ");
         Utils.log("MaxCalories: " + findTopThree(input));
     }
 

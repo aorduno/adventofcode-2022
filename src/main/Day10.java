@@ -1,7 +1,9 @@
+package main;
+
 public class Day10 {
     public static void main(String[] args) {
         FileReader fileReader = new FileReader();
-        String input = fileReader.readLines("day10.input");
+        String input = fileReader.readLines("main/day10.input");
         testPart2(input);
     }
 

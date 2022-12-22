@@ -1,3 +1,5 @@
+package main;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -2514,7 +2516,7 @@ public class Day2 {
     }
 
     private static void test(String input) {
-        Utils.log("Day2 -- total score for given strategy");
+        Utils.log("main.Day2 -- total score for given strategy");
         int total = computeTotal(input);
     }
 

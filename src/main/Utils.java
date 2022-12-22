@@ -1,3 +1,5 @@
+package main;
+
 import java.util.List;
 
 public class Utils {
@@ -5,7 +7,7 @@ public class Utils {
         System.out.println("logger:: " + msg);
     }
 
-    private static String stringify(List<Integer> elements) {
+    public static String stringify(List<Integer> elements) {
         StringBuilder sb = new StringBuilder();
         for (int integer : elements) {
             sb.append(integer).append(",");
